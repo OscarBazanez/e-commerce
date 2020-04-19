@@ -8,7 +8,8 @@ require_once('../includes/conexion.php');
 if(isset($_GET['paypal']) == "paypal") {
 	//print_r($_GET);
 
-	$clienteID = "AYr0LHY0Hge4PitheNoTadWZ4QVXyU8myUo0yARbwLsXdKzMH7mGgAtE6evnqANHDF_EZxz-FG61Uzuo";
+	$clienteID = "";
+	//AYr0LHY0Hge4PitheNoTadWZ4QVXyU8myUo0yARbwLsXdKzMH7mGgAtE6evnqANHDF_EZxz-FG61Uzuo
 	$secret = "ECMTzngSTXXNBL-d-2d20QhWDhjPUH6RScRz7pMIzveHJzuNMhYmJ36RmjRSUPZmmhVbIZGcdct3nRpF";
 
     $login = curl_init();
